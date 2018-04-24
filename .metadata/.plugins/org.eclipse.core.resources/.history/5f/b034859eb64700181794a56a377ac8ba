@@ -1,0 +1,19 @@
+package com.taotao.rest.service.impl;
+
+import com.taotao.common.pojo.TaotaoResult;
+import com.taotao.rest.service.ItemService;
+
+/**
+ * @author shijun_li
+ * @date 2018年4月24日 下午7:57:02
+ * 
+ */
+public class ItemServiceImpl implements ItemService {
+
+	@Override
+	public TaotaoResult getItemListByQuerry(String querry) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

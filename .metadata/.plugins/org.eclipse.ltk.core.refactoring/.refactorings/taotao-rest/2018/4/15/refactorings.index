@@ -1,0 +1,9 @@
+1523688196386	Extract local variable 'resource'
+1523688232777	Extract local variable 'jedis'
+1523688268460	Extract local variable 'string'
+1523688704057	Extract local variable 'string'
+1523700286804	Extract local variable 'bean'
+1523700351539	Extract local variable 'jedis'
+1523702052258	Extract local variable 'string'
+1523702518469	Delete element
+1523702604827	Extract local variable 'string'

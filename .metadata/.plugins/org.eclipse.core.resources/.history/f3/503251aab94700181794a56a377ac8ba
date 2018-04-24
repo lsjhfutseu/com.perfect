@@ -1,0 +1,9 @@
+package com.taotao.portal.service;
+/**
+ * @author shijun_li
+ * @date 2018年4月24日 下午8:18:48
+ * 
+ */
+public interface ItemService {
+
+}

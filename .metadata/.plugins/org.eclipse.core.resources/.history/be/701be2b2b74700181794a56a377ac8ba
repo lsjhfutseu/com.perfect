@@ -1,0 +1,16 @@
+package com.taotao.rest.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+/**
+ * 商品controller
+ * @author shijun_li
+ * @date 2018年4月24日 下午8:04:05
+ * 
+ */
+@Controller
+@RequestMapping("/rest/")
+public class ItemController {
+
+}

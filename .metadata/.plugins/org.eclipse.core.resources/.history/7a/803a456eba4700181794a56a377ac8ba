@@ -1,0 +1,18 @@
+package com.taotao.portal.service.impl;
+
+import com.taotao.portal.service.ItemService;
+
+/**
+ * @author shijun_li
+ * @date 2018年4月24日 下午8:20:48
+ * 
+ */
+public class ItemServiceImpl implements ItemService {
+
+	@Override
+	public String getItemListByQuerry(String querry) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

@@ -1,0 +1,28 @@
+package com.taotao.portal.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.servlet.ModelAndView;
+
+import com.taotao.portal.service.ItemService;
+
+/**
+ * @author shijun_li
+ * @date 2018年4月24日 下午8:29:14
+ * 
+ */
+@Controller
+@RequestMapping("/item")
+public class ItemController {
+	@Autowired 
+	ItemService itemService;
+	@RequestMapping("/search.html")
+	public String getItemListByQuerry(String q, Model model) {
+		String result = itemService.getItemListByQuerry(q);
+		model.addAttribute("itemList", result);
+		return "search";
+	}
+}

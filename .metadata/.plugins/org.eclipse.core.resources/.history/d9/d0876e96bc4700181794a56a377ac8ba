@@ -1,0 +1,13 @@
+package com.taotao.portal.controller;
+
+import org.springframework.stereotype.Controller;
+
+/**
+ * @author shijun_li
+ * @date 2018年4月24日 下午8:29:14
+ * 
+ */
+@Controller
+public class ItemController {
+
+}

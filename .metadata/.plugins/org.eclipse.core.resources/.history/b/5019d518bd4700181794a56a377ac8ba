@@ -1,0 +1,15 @@
+package com.taotao.portal.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+/**
+ * @author shijun_li
+ * @date 2018年4月24日 下午8:29:14
+ * 
+ */
+@Controller
+@RequestMapping("/item")
+public class ItemController {
+
+}

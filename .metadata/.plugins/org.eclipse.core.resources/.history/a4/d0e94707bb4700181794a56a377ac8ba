@@ -1,0 +1,32 @@
+package com.taotao.portal.service.impl;
+
+import java.util.List;
+
+import org.springframework.stereotype.Service;
+
+import com.taotao.common.pojo.TaotaoResult;
+import com.taotao.common.utils.HttpClientUtil;
+import com.taotao.pojo.TbItem;
+import com.taotao.portal.service.ItemService;
+
+/**
+ * @author shijun_li
+ * @date 2018年4月24日 下午8:20:48
+ * 
+ */
+@Service
+public class ItemServiceImpl implements ItemService {
+
+	@Override
+	public String getItemListByQuerry(String querry) {
+		String string = HttpClientUtil.doGet("http://localhost/8081/rest/search/" + querry);
+		//转化为list
+		TaotaoResult result = TaotaoResult.formatToList(string, TbItem.class);		
+		List<TbItem> list = (List<TbItem>) result.getData();
+		for(TbItem item: list) {
+			
+		}
+		return null;
+	}
+
+}
