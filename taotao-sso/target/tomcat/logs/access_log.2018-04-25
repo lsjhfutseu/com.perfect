@@ -1,0 +1,4 @@
+0:0:0:0:0:0:0:1 - - [25/Apr/2018:21:50:21 +0800] "GET /user/showLogin HTTP/1.1" 200 4006 http-bio-8084-exec-1 1332
+0:0:0:0:0:0:0:1 - - [25/Apr/2018:21:50:21 +0800] "GET /images/taotao-logo.gif HTTP/1.1" 304 - http-bio-8084-exec-3 227
+0:0:0:0:0:0:0:1 - - [25/Apr/2018:21:50:21 +0800] "GET /js/jquery-1.6.4.js HTTP/1.1" 304 - http-bio-8084-exec-2 358
+0:0:0:0:0:0:0:1 - - [25/Apr/2018:21:50:24 +0800] "POST /user/login HTTP/1.1" 200 82 http-bio-8084-exec-5 954

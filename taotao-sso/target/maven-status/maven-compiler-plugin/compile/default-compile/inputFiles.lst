@@ -1,4 +1,6 @@
-F:\taotao\myDemos\taotao-sso\src\main\java\com\taotao\sso\dao\Impl\JedisClientSingle.java
-F:\taotao\myDemos\taotao-sso\src\main\java\com\taotao\sso\dao\Impl\JedisClientCluster.java
-F:\taotao\myDemos\taotao-sso\src\main\java\com\taotao\sso\dao\JedisCLient.java
-F:\taotao\myDemos\taotao-sso\src\main\java\com\taotao\sso\controller\UserController.java
+F:\javaweb\myDemos\com.perfect\taotao-sso\src\main\java\com\taotao\sso\dao\JedisCLient.java
+F:\javaweb\myDemos\com.perfect\taotao-sso\src\main\java\com\taotao\sso\dao\Impl\JedisClientCluster.java
+F:\javaweb\myDemos\com.perfect\taotao-sso\src\main\java\com\taotao\sso\controller\UserController.java
+F:\javaweb\myDemos\com.perfect\taotao-sso\src\main\java\com\taotao\sso\service\impl\UserServiceImpl.java
+F:\javaweb\myDemos\com.perfect\taotao-sso\src\main\java\com\taotao\sso\dao\Impl\JedisClientSingle.java
+F:\javaweb\myDemos\com.perfect\taotao-sso\src\main\java\com\taotao\sso\service\UserService.java
