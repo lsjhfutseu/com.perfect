@@ -34,4 +34,13 @@ public class ItemServiceImpl implements ItemService {
 		return list;
 	}
 
+	@Override
+	public TbItem getItemDetailsById(long id) {
+		String string = HttpClientUtil.doGet(REST_BASE_URL + "item/" + String.valueOf(id));
+		//转化为pojo
+		TaotaoResult result = TaotaoResult.formatToPojo(string, TbItem.class);
+		TbItem item = (TbItem) result.getData();
+		return item;
+	}
+
 }

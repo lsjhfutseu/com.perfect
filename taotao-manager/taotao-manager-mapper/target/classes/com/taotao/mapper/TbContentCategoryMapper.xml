@@ -104,7 +104,7 @@
   </delete>
   <insert id="insert" parameterType="com.taotao.pojo.TbContentCategory" >
     <!-- 需要返回主键信息 -->
-    <selectKey keyProperty = "id" resultType = "long" order = "after">
+    <selectKey keyProperty = "id" resultType = "long" order = "AFTER">
     	SELECT LAST_INSERT_ID()
     </selectKey>
     insert into tb_content_category (id, parent_id, name, 

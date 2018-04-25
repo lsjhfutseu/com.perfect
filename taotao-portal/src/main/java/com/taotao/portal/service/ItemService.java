@@ -13,4 +13,5 @@ import com.taotao.pojo.TbItem;
 
 public interface ItemService {
 	public List<TbItem> getItemListByQuerry(String querry);
+	public TbItem getItemDetailsById(long id);
 }

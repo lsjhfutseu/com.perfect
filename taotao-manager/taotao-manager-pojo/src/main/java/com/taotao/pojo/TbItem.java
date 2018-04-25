@@ -24,8 +24,18 @@ public class TbItem {
     private Date created;
 
     private Date updated;
+    
+    private String []images;
 
-    public Long getId() {
+    public String[] getImages() {
+		return image.split(",");
+	}
+
+	public void setImages(String[] images) {
+		this.images = images;
+	}
+
+	public Long getId() {
         return id;
     }
 

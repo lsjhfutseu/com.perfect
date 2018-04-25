@@ -39,4 +39,17 @@ public class ItemServiceImpl implements ItemService {
 		return TaotaoResult.ok(list);
 	}
 
+	//根据商品id返回商品的详细信息的pojo（满足前台要求）
+	@Override
+	public TaotaoResult getItemDetailsById(long id) {
+		TbItemExample example = new TbItemExample();
+		Criteria criteria = example.createCriteria();
+		criteria.andIdEqualTo(id);
+		List<TbItem> list = itemMapper.selectByExample(example);
+		if(list != null && list.size() > 0) {
+			return TaotaoResult.ok(list.get(0));
+		}
+		return null;
+	}
+
 }

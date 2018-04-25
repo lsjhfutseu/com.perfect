@@ -27,4 +27,10 @@ public class ItemController {
 		TaotaoResult result = itemService.getItemListByQuerry(querry);
 		return result;
 	}
+	
+	@RequestMapping("/{id}")
+	@ResponseBody
+	public TaotaoResult getItemDetailsById(@PathVariable long id) {
+		return itemService.getItemDetailsById(id);
+	}
 }

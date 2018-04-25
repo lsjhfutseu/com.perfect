@@ -1,0 +1,4 @@
+com\taotao\sso\dao\JedisCLient.class
+com\taotao\sso\dao\Impl\JedisClientCluster.class
+com\taotao\sso\dao\Impl\JedisClientSingle.class
+com\taotao\sso\controller\UserController.class
